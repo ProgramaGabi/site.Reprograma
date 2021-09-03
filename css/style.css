@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.html {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*BANNER*/
+
+.caixa-banner {
+  display: flex;
+  width: 100%; /*largura*/
+  height: 85vh; /*altura*/
+  justify-content: center;
+  align-items: flex-end; /*alinhar ao final da página*/
+  background: url(../img/img-banner.png.jpg) center no-repeat; /*colocar o banner(imagem) ajustar a imagem ao centro, com uma única foto*/
+  background-size: cover; /*preenche todo o contéudo do banner*/
+  color: #ffff;
+}
+
+.banner-texto {
+  height: 40vh;
+  text-align: center;
+}
+
+.banner-titulo {
+  font-size: 32px;
+}
+
+.banner-subtitulo {
+  font-size: 20px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.banner-btn {
+  font-size: 18px;
+  text-decoration: none; /*tirar o sublinadi do texto*/
+  color: rgb(110, 61, 155);
+  background: #ffff;
+  padding: 15px 15px;
+  border-radius: 20px; /*arrendoda as bordas da caixinha*/
+  text-transform: uppercase; /*transformar tudo em caixa alta*/
+  font-weight: bolder;
+}
+
+.ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+.principal {
+  background: #a87bac;
+  height: 40px;
+  max-width: 50%;
+  margin: 0% auto;
+  border-radius: 8%;
+  margin-top: 3%;
+  justify-content: center;
+}
+
+.principal a {
+  color: white;
+  text-decoration: underline;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.principal li {
+  display: inline-flex;
+  line-height: 2.5;
+  margin: 0 78px;
+}
+
+.estilo-lista {
+  list-style-type: none;
+}
+
+/*Início da sessão sobre mim*/
+.secao_sobre_mim {
+  display: flex;
+  flex-direction: column; /*volta em colunas*/
+  width: 100%;
+  padding: 30px 60px;
+}
+
+.resumo_sobre_mim {
+  display: flex;
+}
+
+.resumo {
+  width: 50%;
+  margin-right: 60px;
+}
+
+.minhas_habilidades {
+  width: 40%;
+}
+
+.resumo_titulo {
+  font-size: 45px;
+  color: #a99faf;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+.resumo_principal {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(121, 72, 121);
+}
+
+.resumo_secundario {
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 15px;
+  color: rgb(73, 48, 73);
+}
+
+.resumo-btn {
+  font-size: 18px;
+  padding: 15px;
+  background: #ad94bf;
+  color: #ffff;
+  text-decoration: none;
+  border-radius: 15px;
+  border: 2px solid #a87bac;
+}
+
+.caixa_btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.strong {
+  font-style: italic;
+}
+
+.habilidades-titulo {
+  font-size: 30px;
+  color: #58475a;
+}
+
+.habilidades-lista {
+  font-size: 20px;
+  color: rgb(109, 101, 101);
+  line-height: 1.8; /*altura de uma linha para outra*/
+  margin-top: 20px;
+}
+
+.caixa-rede-social {
+  color: #ffff;
+  background: #6e4672;
+  height: 140px;
+  width: 150px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.img-rede-social {
+  height: 50px;
+}
+
+.titulo-rede-social {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.subtitulo-rede-social {
+  font-size: 14px;
+}
+
+.container-redes-sociais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+}
+
+.nome-rodape {
+  color: #484749;
+  font-size: 15px;
+}
+
+.link-rede-social {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.minhas-redes {
+  color: #a99faf;
+  font-size: 25px;
+  margin-left: 26%;
+  margin-top: 60px;
+}
+
+.conchete2 {
+  font-size: 25px;
+  color: #a99faf;
+  margin-left: 25%;
+}
