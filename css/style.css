@@ -73,8 +73,9 @@
 
 .principal li {
   display: inline-flex;
-  line-height: 2.5;
-  margin: 0 78px;
+  line-height: 0 70px;
+  margin: 0 60px;
+  padding-top: 0.6rem;
 }
 
 .estilo-lista {
